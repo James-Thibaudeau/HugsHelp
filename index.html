@@ -6,64 +6,86 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <!-- navbar -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">HugsHelp</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav>
+          <div class="nav-wrapper">
+              <a href="#" class="brand-logo">HugsHelp</a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+              <ul class="side-nav" id="mobile-demo">
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+    </div>
+
     <!-- layout -->
-    <div class="container">
-        <h1 class="center-align">
-        Welcome to HugsHelp!
-      </h1>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/widehugsepia.jpg"> <!-- random image -->
+          <div class="caption center-align">
+            <h1 class="red-text text-darken-2">Welcome to HugsHelp!</h1>
+            <h5 class="red-text text-darken-1">Helping communities through hugs!</h5>
+          </div>
+        </li>
+    </div>
+  <div class="divider"></div>
+    <!-- <div class="container"> -->
         <div class="row">
-            <div class="col s12 m6 l6">
+            <div class="col s12 m4 l4">
                 <div class="card large">
                     <div class="card-image">
                         <img src="img/grouphug.jpg">
                         <span class="card-title"><strong>How do we help?</strong></span>
                     </div>
                     <div class="card-content">
-                        <p class="flow-text">Volunteers go out to our events and hug away! The donors they sign-up, pledge pennies per hug and we count the hugs given to reach the final donation amount.</p>
+                        <p class="flow-text">Volunteers and the donors they get, pledge pennies per hug and we count the hugs given to reach the final donation.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l6">
+            <div class="col s12 m4 l4">
                 <div class="card large">
                     <div class="card-image">
-                        <img src="img/widehug.jpg">
+                        <img src="img/brohug.jpg">
                         <span class="card-title"><strong>Why hugs?</strong></span>
                     </div>
                     <div class="card-content">
-                        <p class="flow-text">A hug can indicate support, comfort, and consolation. Hugging has been proven to have health benefits. One study has shown that hugs increase levels of oxytocin and reduce blood pressure.</p>
+                        <p class="flow-text">Hugging is good for you! Studies show that hugs increase oxytocin levels and reduce blood pressure.</p>
                     </div>
                     <div class="card-action">
                         <a target='_blank' href="https://en.wikipedia.org/wiki/Hug">Wikipedia - Hug</a>
                     </div>
                 </div>
             </div>
+            <div class="col s12 m4 l4">
+                <div class="card large">
+                    <div class="card-image">
+                        <img src="img/couplehug.jpg">
+                        <span class="card-title"><strong>Who can hug?</strong></span>
+                    </div>
+                    <div class="card-content">
+                        <p class="flow-text">Young or old, big or small, anyone can volunteer to hug!</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    <!-- </div> -->
 
 
     <!-- footer -->
