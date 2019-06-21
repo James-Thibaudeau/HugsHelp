@@ -1,0 +1,1 @@
+{"version":3,"file":"\/Users\/jthibodeau\/Desktop\/projects\/apps\/test\/test-project\/resources\/public\/js\/compiled\/out\/test_project\/events.js","sources":["events.cljs?rel=1558533674105"],"lineCount":10,"mappings":";AAAA;;;;AAMA,qCAAA,rCAACA,gJAEA,WAAKC,EAAEA;AAAP,AACEC","names":["re-frame.core\/reg-event-db","_","test-project.db\/default-db"]}
