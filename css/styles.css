@@ -41,3 +41,7 @@
 .O {
   background-color: #00cc33;
 }
+
+.active-cell {
+  border: 2px solid white;
+}
