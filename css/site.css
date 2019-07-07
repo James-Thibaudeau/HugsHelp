@@ -5,7 +5,6 @@
   width: 40vw;
   height: 40vw;
 }
-
 .button-cell {
   position: relative;
   display: flex;
@@ -20,28 +19,23 @@
   border-color: gray;
   box-shadow: 1px 1px gray;
 }
-
 .button-cell:after {
-    content: ""
-    display: block;
-    padding-bottom: 100%
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
-
 .cell-content {
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
 }
-
 .X {
   background-color: #0099ff;
 }
-
 .O {
   background-color: #00cc33;
 }
-
 .active-cell {
   border: 2px solid white;
 }
